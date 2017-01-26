@@ -6,17 +6,6 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>common-activiti</name>
-  <!-- 配置依赖使用maven私服 -->
-	<repositories>
-	  	<repository>
-	  		<id>nexus</id>
-	  		<name>Nexus Repository</name>
-	  		<url>http://15809t1i09.51mypc.cn:8080/nexus/content/groups/public/</url>
-	  		<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-	  	</repository>
-	</repositories>
 	
 	<properties>
 		<org.springframework.version>4.2.3.RELEASE</org.springframework.version>  
